@@ -1,0 +1,23 @@
+/* Montserrat regular */
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Montserrat italic */
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Montserrat bold */
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
