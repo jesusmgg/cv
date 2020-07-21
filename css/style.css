@@ -111,7 +111,7 @@ li {
   font-weight: normal;
   font-style: normal;
   font-size: 0.9em;
-  margin-top: 0.5em;
+  margin-top: 0.35em;
 }
 
 .work-experience-entry-header-links a {
@@ -128,6 +128,6 @@ li {
 
 .work-experience-entry-image-single {
   justify-self: center;
-  width: 90%;
+  width: 70%;
 }
 

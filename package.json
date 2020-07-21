@@ -1,0 +1,14 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "My personal CV",
+  "repository": "git@github.com:jesusmgg/cv.git",
+  "author": "Jesús González <jesus@jesusmg.net>",
+  "license": "MIT",
+  "scripts": {
+    "generate-pdf": "node ./generate_pdf.js"
+  },
+  "dependencies": {
+    "puppeteer": "^5.2.1"
+  }
+}
