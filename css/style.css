@@ -11,6 +11,10 @@ li {
   padding-bottom: 0.4em; 
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .header {
   display: grid;
   grid-template-rows: auto auto auto;
@@ -55,6 +59,7 @@ li {
 .content-section {
   display: grid;
   grid-template-columns: auto;
+  margin-bottom: 2em;
 }
 
 .content-section-title {
@@ -65,6 +70,7 @@ li {
 .work-experience-entry {
   display: grid;
   grid-template-columns: auto;
+  margin-bottom: 2em;
 }
 
 .work-experience-entry-header {
@@ -121,13 +127,25 @@ li {
 
 .work-experience-entry-content {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 100%;
   font-size: 1em;
   text-align: start;
+}
+
+.work-experience-entry-image-container-double {
+  display: grid;
+  grid-template-columns: 50% 50%;  
+  justify-content: center;
+  align-content: center;
 }
 
 .work-experience-entry-image-single {
   justify-self: center;
   width: 70%;
+}
+
+.work-experience-entry-image-double {
+  justify-self: center;
+  width: 95%;
 }
 
