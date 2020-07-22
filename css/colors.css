@@ -1,0 +1,15 @@
+:root {
+  --bg-color: white;
+  --text-primary-color: black;
+  --text-secondary-color: grey;
+  --accent-color: #4361ee;
+  --light-color: #c2c2c2;
+}
+
+[data-theme="dark"] {
+  --bg-color: #181a1b;
+  --text-primary-color: #e8e6e3;
+  --text-secondary-color: grey;
+  --accent-color: #4361ee;
+  --light-color: #c2c2c2;
+}

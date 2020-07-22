@@ -6,7 +6,7 @@
   "author": "Jesús González <jesus@jesusmg.net>",
   "license": "MIT",
   "scripts": {
-    "generate-pdf": "node ./generate_pdf.js"
+    "generate-pdf": "node ./generate-pdf.js"
   },
   "dependencies": {
     "puppeteer": "^5.2.1"

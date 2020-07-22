@@ -4,6 +4,13 @@ const options = {
   format: "A4",
   orientation: "portrait",
   path: "./cv.pdf",
+  printBackground: true,
+  margin: {
+    top: "1.5cm",
+    right: "1.5cm",
+    bottom: "1.5cm",
+    left: "1.5cm"
+  }
 };
 
 async function generatePDF() {
