@@ -1,0 +1,14 @@
+@media print {
+  @page {
+    size: A4;
+  }
+
+  .page-break {
+    page-break-after: always;
+  }
+
+  .theme-switch-wrapper {
+    visibility: hidden;
+  }
+
+}

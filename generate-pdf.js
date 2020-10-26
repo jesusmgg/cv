@@ -20,6 +20,7 @@ async function generatePDF() {
   
   const page = await browser.newPage();
   await page.goto("http://127.0.0.1:5500", { waitUntil: 'networkidle0' });
+  await page.addStyleTag({ path: 'css/pdf.css' });
   const pdf = await page.pdf(options);
   await browser.close();
 }
